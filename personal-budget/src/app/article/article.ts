@@ -4,8 +4,10 @@ import { Component } from '@angular/core';
   selector: 'pb-article',
   imports: [],
   templateUrl: './article.html',
-  styleUrl: './article.scss'
+  styleUrl: './article.scss',
+
 })
 export class Article {
+
 
 }

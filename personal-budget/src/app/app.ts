@@ -1,10 +1,13 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
+
 import { Menu } from './menu/menu';
 import { Hero } from './hero/hero';
 import { Footer } from './footer/footer';
-import { Article } from './article/article';
 import { Homepage } from './homepage/homepage';
+
+
 
 
 
@@ -18,8 +21,11 @@ import { Homepage } from './homepage/homepage';
     Menu,
     Hero,
     Footer,
-    Article,
-    Homepage],
+    Homepage,
+
+
+  ],
+providers:[],
 
 
   templateUrl: './app.html',
